@@ -1,0 +1,17 @@
+{
+  "item.oreapplemod.apple_coal": "§fCoal Apple",
+  "tooltip.oreapplemod.apple_coal": "§9Haste (2:00)",
+  "item.oreapplemod.apple_iron": "§fIron Apple",
+  "tooltip.oreapplemod.apple_iron": "§9Resistance (0:15)",
+  "item.oreapplemod.apple_lapis": "§fLapis Apple",
+  "tooltip.oreapplemod.apple_lapis": "§9Speed (1:00)",
+  "item.oreapplemod.apple_redstone": "§fRedstone Apple",
+  "tooltip.oreapplemod.apple_redstone": "§9Regeneration (0:05)",
+  "item.oreapplemod.apple_diamond": "§fDiamond Apple",
+  "tooltip.oreapplemod.apple_diamond": "§9Regeneration (0:15)",
+  "tooltip.oreapplemod.apple_diamond2": "§9Absorption III (1:00)",
+  "tooltip.oreapplemod.apple_diamond3": "§9Luck (0:30)",
+  "tooltip.oreapplemod.apple_diamond4": "§9Strength (0:30)",
+  "item.oreapplemod.apple_emerald": "§fEmerald Apple",
+  "tooltip.oreapplemod.apple_emerald": "§9Luck (1:00)"
+}
