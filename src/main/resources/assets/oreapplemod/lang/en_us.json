@@ -13,5 +13,7 @@
   "tooltip.oreapplemod.apple_diamond3": "§9Luck (0:30)",
   "tooltip.oreapplemod.apple_diamond4": "§9Strength (0:30)",
   "item.oreapplemod.apple_emerald": "§fEmerald Apple",
-  "tooltip.oreapplemod.apple_emerald": "§9Luck (1:00)"
+  "tooltip.oreapplemod.apple_emerald": "§9Luck (1:00)",
+  "item.oreapplemod.apple_quartz": "§fQuartz Apple",
+  "tooltip.oreapplemod.apple_quartz": "§9Fire Resistance (2:00)"
 }

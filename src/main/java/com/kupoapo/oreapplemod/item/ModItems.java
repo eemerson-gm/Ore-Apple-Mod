@@ -38,6 +38,9 @@ public class ModItems {
     public static final RegistryObject<Item> APPLE_EMERALD = ITEMS.register("apple_emerald",
             () -> new AppleItems("apple_emerald", Effects.LUCK, 1200, 0, 1.0f));
 
+    public static final RegistryObject<Item> APPLE_QUARTZ = ITEMS.register("apple_quartz",
+            () -> new AppleItems("apple_quartz", Effects.FIRE_RESISTANCE, 2400, 0, 1.0f));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

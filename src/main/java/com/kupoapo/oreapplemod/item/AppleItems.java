@@ -23,13 +23,13 @@ public class AppleItems extends Item {
     private ArrayList<EffectInstance> appleEffects = new ArrayList<EffectInstance>();
 
     public AppleItems(String name, EffectInstance... effects){
-        super(new Item.Properties().tab(ItemGroup.TAB_FOOD).food(new Food.Builder().nutrition(4).saturationMod(2.4f).alwaysEat().build()));
+        super(new Item.Properties().tab(ItemGroup.TAB_FOOD).food(new Food.Builder().nutrition(4).saturationMod(1.0f).alwaysEat().build()));
         appleEffects.addAll(Arrays.asList(effects));
         appleName = name;
     }
 
     public AppleItems(String name, Effect effect, int duration, int power, float probability) {
-        super(new Item.Properties().tab(ItemGroup.TAB_FOOD).food(new Food.Builder().nutrition(4).saturationMod(2.4f).effect(
+        super(new Item.Properties().tab(ItemGroup.TAB_FOOD).food(new Food.Builder().nutrition(4).saturationMod(1.0f).effect(
                 () -> new EffectInstance(effect, duration, power), probability).alwaysEat().build()));
         appleName = name;
     }
